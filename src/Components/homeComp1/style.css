@@ -1,0 +1,39 @@
+
+.h1d1{
+    width:25%;
+
+}
+
+.h1d1img1{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid #dee2e6
+}
+.h1d1p1{
+    text-align: center!important;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1d1btn1{
+    background-color: #59ab6e !important;
+    padding: 10px 16px;
+    border: none;
+    color:white;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+}
+
+@media only screen and (min-width: 180px) and (max-width: 800px)  {
+  .h1d1{
+    width: 100%;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,138 @@
+
+
+.sliderD1{
+  padding: 55px 0px;
+  background: #f1f1f1;
+  
+  width: 100%;
+
+}
+
+.sliderd1-1{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sliderdiv-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sliderdiv1{
+    width:48%
+}
+.sliderdiv2{
+    width:48%
+}
+
+.sliderimg1{
+    width: 100%;
+}
+
+.sliderh1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+    line-height: 1.2;
+    color: #212529;
+}
+.sliderp1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #212529;
+    margin-top: 15px;
+}
+
+.sliderp2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    line-height: 1.5;
+    color: #212529;
+    margin-top: 20px;
+}
+
+.sliderh2{
+    color: #59ab6e !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+    line-height: 1.2;
+}
+
+.homever1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+    line-height: 1.2;
+    text-align: center!important;
+    color: #212529;
+   
+
+}
+
+.homep1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    text-align: center!important;
+    line-height: 1.5;
+    color: #212529;
+    width: 40%;
+    margin: 30px auto;
+}
+
+.h1{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.h1-1{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.h2{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #e9eef5;
+}
+
+.h2-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+  }
+
+  @media only screen and (min-width: 180px) and (max-width: 800px)  {
+    .sliderd1-1{
+        width:90%;
+        display: block;
+        
+    }
+
+    .sliderdiv1{
+        width:100%
+    }
+    .sliderdiv2{
+        width:100%;
+        margin-top: 30px;
+    }
+    .homep1{
+        width: 80%;
+    }
+    .h1-1{
+        width: 80%;
+        display: block;
+    }
+    .h2-1{
+        width: 80%;
+        display: block;
+    }
+}

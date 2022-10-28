@@ -1,0 +1,39 @@
+
+
+.z3{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #f1f1f1;
+}
+
+.z3-1{
+    width: 50%;
+    margin: 35px 0px;
+}
+
+.z3d1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.z3d1img1{
+    width: 16%;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.z3d1img1:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 180px) and (max-width: 800px)  {
+  .z3-1{
+    width: 80%;
+  }
+}

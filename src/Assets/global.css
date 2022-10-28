@@ -1,0 +1,22 @@
+@import url('./icons/style.css');
+
+*{
+    margin: 0;
+}
+
+.App{
+    width: 100%;
+
+}
+
+.G-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.G-maindiv{
+    width:75%;
+    max-width: 1850px;
+}
+

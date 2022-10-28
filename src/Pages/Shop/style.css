@@ -1,0 +1,134 @@
+
+
+.f1{
+    width: 100%;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.f1-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1-1d1{
+    width: 21%;
+}
+
+.f1-1d2{
+    width: 77%;
+}
+.f1ver1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+    font-weight: 300;
+    padding-bottom: 1.5rem!important;
+    line-height: 1.2;
+    color: #212529;
+}
+
+.shopcomp1div{
+    height: 180px;
+}
+
+.f2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f2d1{
+    width: auto;
+}
+
+.f2d1sp1{
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px !important;
+    line-height: 1.2;
+    font-weight: 300 !important;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 20px;
+}
+
+.f2d1sp1:hover{
+    color: #69bb7e ;
+    transition: 0.4s;
+}
+
+.f2d1select{
+    width: 320px;
+   padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    
+    color: #212529;
+
+}
+
+.f2d1selectdiv{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 100%;
+    border: 1px solid #212529;
+    z-index: 10;
+}
+
+.selectd1{
+    width: 100%;
+    color: #212529;
+   background-color: white;
+}
+
+.selectd1:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+.select1sp1{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+}
+
+.f3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px ;
+}
+
+@media only screen and (min-width: 180px) and (max-width: 800px)  {
+    .f1-1{
+        width: 90%;
+        display: block;
+    }
+    .f1-1d1{
+        width: 100%;
+    }
+    .f1-1d2{
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    .f2{
+        display: block;
+    }
+    .f2d1{
+        margin: 20px 0px;
+    }
+    .f3{
+        display: block;
+    }
+
+}
+
